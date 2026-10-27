@@ -97,7 +97,6 @@ let xSquare = (x2-x1) ** 2;
 let ySquare = (y2-y1) ** 2;
 let sumSquare = (xSquare + ySquare);
 return Math.sqrt(sumSquare).toFixed(2);
-)
 }
 
 
@@ -113,7 +112,7 @@ return Math.sqrt(sumSquare).toFixed(2);
 function tipCalc(bill, tipPercent) {
   // Write your code here
 let tipAmount = bill * (tipPercent / 100);
-totalAmount = bill + tipAmount;
+let totalAmount = bill + tipAmount;
 return totalAmount.toFixed(2);
 }
 
